@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: azure;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    margin: 10px 10px 40px;
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    height: 16vh;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
